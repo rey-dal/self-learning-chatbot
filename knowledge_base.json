@@ -1,0 +1,36 @@
+{
+"questions": [
+    {
+      "question": "ca va?",
+      "answer": "oui et toi"
+    },
+    {
+      "question": "yoo",
+      "answer": "yo"
+    },
+    {
+      "question": "salut",
+      "answer": "salutt"
+    },
+    {
+      "question": "wesh!!!",
+      "answer": "wsh"
+    },
+    {
+      "question": "biscuit!",
+      "answer": "Tu veux un biscuit?"
+    },
+    {
+      "question": "bon",
+      "answer": "dac"
+    },
+    {
+      "question": "je m'apelle",
+      "answer": "enchanté"
+    },
+    {
+      "question": "t'as quel âge? ",
+      "answer": "Mais je n'ai pas d'âge, je suis un robot."
+    }
+ ]
+}
