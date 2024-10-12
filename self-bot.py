@@ -35,12 +35,12 @@ def chat_bot(knowledge_base=None):
             answer: str = get_answer_for_question(best_match, knowledge_base)
             print(f'Bot: {answer}')
         else:
-            print('Bot: I don\'t know the answer. Can you teach me?')
+            print('Bot: Je ne connais pas la réponse. Tu peux m'apprendre ?')
             new_answer: str = input('Type the answer or "skip" to skip:')
             if new_answer.lower() != 'skip':
                 knowledge_base["questions"].append({"question": user_input, "answer": new_answer})
                 save_knowledge_base('knowledge_base.json', knowledge_base)
-                print("Thank you! I learned a new response.")
+                print("Merci ! J'ai appris une nouvelle réponse.")
 
 if __name__ == '__main__':
     chat_bot()
