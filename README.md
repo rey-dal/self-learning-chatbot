@@ -1,1 +1,1 @@
-you are the master of this bot.
+you are the teacher.
